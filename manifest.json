@@ -1,0 +1,11 @@
+{
+    "name": "Remove Roll20 Names",
+    "version": "1.0.0",
+    "description": "Remove player icons and names on Roll20",
+    "host_permissions": ["https://*.roll20.net/editor/"],
+    "permissions": ["scripting"],
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "manifest_version": 3
+}
